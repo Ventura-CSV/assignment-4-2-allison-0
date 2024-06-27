@@ -3,7 +3,7 @@ def main():
     a1 = int(input('Enter your first number: '))
     a2 = int(input('Enter your second number: '))
     N = int(input('Enter the number of sequences: '))
-    if N > 2:
+    if N >= 2:
         result.append(a1)
         result.append(a2)
         for i in range(N-2):
