@@ -5,7 +5,7 @@ def main():
     N = int(input('Enter the number of sequences: '))
     result.append(a1)
     result.append(a2)
-    for i in range(a2,N):
+    for i in range(N-2):
         num = result[-2] + result [-1]
         result.append(num)
     else:
